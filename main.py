@@ -1,10 +1,11 @@
 import time
-
 from bs4 import BeautifulSoup
 import requests
 from gtts import gTTS
 import os
+
 previous=" "
+
 while(1):
     url="https://www.espncricinfo.com/series/icc-world-test-championship-2019-2021-1195334/india-vs-new-zealand-final-1249875/live-cricket-score"
     # replace this URL with present match url
